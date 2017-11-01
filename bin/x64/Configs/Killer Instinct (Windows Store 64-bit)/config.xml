@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameConfigFileVersion>1</GameConfigFileVersion>
+  <watchList>
+    <Watch>
+      <valueType>IntType</valueType>
+      <Id>1</Id>
+      <Name>Clock</Name>
+      <Description>Round timer from 99 down to 0 as int</Description>
+      <PointerList>
+        <string>31DE8E8</string>
+        <string>368</string>
+      </PointerList>
+      <Active>true</Active>
+    </Watch>
+    <Watch>
+      <valueType>IntType</valueType>
+      <Id>2</Id>
+      <Name>Main Menu options</Name>
+      <Description>Integer, range 0 through 4.</Description>
+      <PointerList>
+        <string>31EA360</string>
+        <string>358</string>
+        <string>640</string>
+        <string>38</string>
+        <string>150</string>
+        <string>B0</string>
+      </PointerList>
+      <Active>true</Active>
+    </Watch>
+  </watchList>
+  <triggerList>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>Any</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>1</Id>
+      <Name>Clock</Name>
+      <Description>Clock watch for InGame and InMenu determination</Description>
+      <Value xsi:type="xsd:int">-1</Value>
+      <WatchIdList>
+        <int>1</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>None</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>false</UseTolk>
+      <IsClock>true</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>InGame</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>2</Id>
+      <Name>Clock 50</Name>
+      <Description>50</Description>
+      <Value xsi:type="xsd:string">50</Value>
+      <WatchIdList>
+        <int>1</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>50</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>InGame</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>3</Id>
+      <Name>Clock 10</Name>
+      <Description>Says 10</Description>
+      <Value xsi:type="xsd:string">10</Value>
+      <WatchIdList>
+        <int>1</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>10</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>InMenu</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>4</Id>
+      <Name>Main Menu 0 - Shadow Lords</Name>
+      <Description>Says menu text</Description>
+      <Value xsi:type="xsd:string">0</Value>
+      <WatchIdList>
+        <int>2</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Shadow Lords</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>InMenu</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>5</Id>
+      <Name>Main Menu 1 - Single Player</Name>
+      <Description>Says menu text</Description>
+      <Value xsi:type="xsd:string">1</Value>
+      <WatchIdList>
+        <int>2</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Single Player</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>InMenu</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>6</Id>
+      <Name>Main Menu 2 - Multi Player</Name>
+      <Description>Says menu text</Description>
+      <Value xsi:type="xsd:string">2</Value>
+      <WatchIdList>
+        <int>2</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Multiplayer</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>InMenu</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>7</Id>
+      <Name>Main Menu 3 - Store</Name>
+      <Description>Says menu text</Description>
+      <Value xsi:type="xsd:string">3</Value>
+      <WatchIdList>
+        <int>2</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Store</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>InMenu</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>8</Id>
+      <Name>Main Menu 4 - Exit</Name>
+      <Description>Says menu text</Description>
+      <Value xsi:type="xsd:string">4</Value>
+      <WatchIdList>
+        <int>2</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Exit</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+  </triggerList>
+  <Description>Killer Instinct, Windows Store Edition (64-bit) - Al Lansley - 2017-10-26
+
+IMPORTANT: You must run this config with the 64-bit version of SoniFight because the Killer Instinct application itself is 64-bit.
+
+Basic triggers - this config is very much a work-in-progress!</Description>
+  <ProcessName>KillerInstinct_UWPx64_r</ProcessName>
+  <PollSleepMS>100</PollSleepMS>
+  <ClockTickMS>2000</ClockTickMS>
+  <ClockMax>99</ClockMax>
+  <ConfigDirectory>Killer Instinct (Windows Store 64-bit)</ConfigDirectory>
+  <NormalTriggerMasterVolume>0.7</NormalTriggerMasterVolume>
+  <ContinuousTriggerMasterVolume>1</ContinuousTriggerMasterVolume>
+</GameConfig>
