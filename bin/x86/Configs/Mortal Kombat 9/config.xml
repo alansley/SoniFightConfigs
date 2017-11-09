@@ -123,9 +123,7 @@
       <WatchIdList>
         <int>1</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>NONE</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -144,9 +142,7 @@
       <WatchIdList>
         <int>2</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Health-Half.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -165,9 +161,7 @@
       <WatchIdList>
         <int>2</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Health-Quarter.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -186,9 +180,7 @@
       <WatchIdList>
         <int>2</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Health-Low.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -207,9 +199,7 @@
       <WatchIdList>
         <int>1</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Clock-45.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -228,9 +218,7 @@
       <WatchIdList>
         <int>1</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Clock-10.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -249,9 +237,7 @@
       <WatchIdList>
         <int>3</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Enhanced.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -270,9 +256,7 @@
       <WatchIdList>
         <int>3</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Breaker.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -291,9 +275,7 @@
       <WatchIdList>
         <int>3</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>X-Ray.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -312,9 +294,7 @@
       <WatchIdList>
         <int>4</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Health-Half-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -333,9 +313,7 @@
       <WatchIdList>
         <int>4</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Health-Quarter-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -354,9 +332,7 @@
       <WatchIdList>
         <int>4</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Health-Low-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -375,9 +351,7 @@
       <WatchIdList>
         <int>5</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Enhanced-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -396,9 +370,7 @@
       <WatchIdList>
         <int>5</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>Breaker-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -417,9 +389,7 @@
       <WatchIdList>
         <int>5</int>
       </WatchIdList>
-      <SecondaryIdList>
-        <int>-1</int>
-      </SecondaryIdList>
+      <SecondaryIdList />
       <SampleFilename>X-Ray-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -609,7 +579,7 @@
       <SecondaryIdList>
         <int>-1</int>
       </SecondaryIdList>
-      <SampleFilename>Single Player</SampleFilename>
+      <SampleFilename>1 Player</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
       <UseTolk>true</UseTolk>
@@ -733,7 +703,7 @@
         <int>6</int>
       </WatchIdList>
       <SecondaryIdList>
-        <int>-1</int>
+        <int>25</int>
       </SecondaryIdList>
       <SampleFilename>Online</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
@@ -859,7 +829,7 @@
         <int>6</int>
       </WatchIdList>
       <SecondaryIdList>
-        <int>-1</int>
+        <int>26</int>
       </SecondaryIdList>
       <SampleFilename>Options</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
@@ -1737,7 +1707,7 @@ This config uses sample-based output for health, clock and gauge values - as wel
   <PollSleepMS>100</PollSleepMS>
   <ClockTickMS>1000</ClockTickMS>
   <ClockMax>90</ClockMax>
-  <ConfigDirectory>Mortal Kombat 9</ConfigDirectory>
+  <ConfigDirectory>Mortal Kombat 9\</ConfigDirectory>
   <NormalTriggerMasterVolume>1</NormalTriggerMasterVolume>
   <ContinuousTriggerMasterVolume>1</ContinuousTriggerMasterVolume>
 </GameConfig>
