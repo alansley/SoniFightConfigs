@@ -123,7 +123,9 @@
       <WatchIdList>
         <int>1</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>NONE</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -142,7 +144,9 @@
       <WatchIdList>
         <int>2</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Health-Half.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -161,7 +165,9 @@
       <WatchIdList>
         <int>2</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Health-Quarter.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -180,7 +186,9 @@
       <WatchIdList>
         <int>2</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Health-Low.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -199,7 +207,9 @@
       <WatchIdList>
         <int>1</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Clock-45.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -218,7 +228,9 @@
       <WatchIdList>
         <int>1</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Clock-10.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -237,7 +249,9 @@
       <WatchIdList>
         <int>3</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Enhanced.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -256,7 +270,9 @@
       <WatchIdList>
         <int>3</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Breaker.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -275,7 +291,9 @@
       <WatchIdList>
         <int>3</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>X-Ray.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -294,7 +312,9 @@
       <WatchIdList>
         <int>4</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Health-Half-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -313,7 +333,9 @@
       <WatchIdList>
         <int>4</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Health-Quarter-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -332,7 +354,9 @@
       <WatchIdList>
         <int>4</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Health-Low-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -351,7 +375,9 @@
       <WatchIdList>
         <int>5</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Enhanced-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -370,7 +396,9 @@
       <WatchIdList>
         <int>5</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Breaker-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -389,7 +417,9 @@
       <WatchIdList>
         <int>5</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>X-Ray-P2.mp3</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -408,7 +438,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>24</int>
+      </SecondaryIdList>
       <SampleFilename>Fight</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -427,7 +459,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>24</int>
+      </SecondaryIdList>
       <SampleFilename>Story Mode</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -446,7 +480,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>24</int>
+      </SecondaryIdList>
       <SampleFilename>Challenge Tower</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -465,7 +501,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>24</int>
+      </SecondaryIdList>
       <SampleFilename>Training</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -484,7 +522,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>24</int>
+      </SecondaryIdList>
       <SampleFilename>Online</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -503,7 +543,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>24</int>
+      </SecondaryIdList>
       <SampleFilename>Extras</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -522,7 +564,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>24</int>
+      </SecondaryIdList>
       <SampleFilename>Options</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -541,7 +585,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>24</int>
+      </SecondaryIdList>
       <SampleFilename>Exit Game</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -560,7 +606,9 @@
       <WatchIdList>
         <int>7</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Single Player</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -579,7 +627,9 @@
       <WatchIdList>
         <int>7</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>2 Players</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -598,7 +648,9 @@
       <WatchIdList>
         <int>7</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>3 Players</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -617,7 +669,9 @@
       <WatchIdList>
         <int>7</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>4 Players</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -636,7 +690,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>25</int>
+      </SecondaryIdList>
       <SampleFilename>Versus mode</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -655,7 +711,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>25</int>
+      </SecondaryIdList>
       <SampleFilename>Team ladder</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -674,7 +732,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Online</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -693,7 +753,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>25</int>
+      </SecondaryIdList>
       <SampleFilename>Extras</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -712,7 +774,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>25</int>
+      </SecondaryIdList>
       <SampleFilename>Options</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -731,7 +795,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>25</int>
+      </SecondaryIdList>
       <SampleFilename>Exit Game</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -750,7 +816,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>26</int>
+      </SecondaryIdList>
       <SampleFilename>Versus mode</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -769,7 +837,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>26</int>
+      </SecondaryIdList>
       <SampleFilename>Extras</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -788,7 +858,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
       <SampleFilename>Options</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -807,7 +879,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>26</int>
+      </SecondaryIdList>
       <SampleFilename>Exit game</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -826,7 +900,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>27</int>
+      </SecondaryIdList>
       <SampleFilename>Versus mode</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -845,7 +921,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>27</int>
+      </SecondaryIdList>
       <SampleFilename>Extras</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -864,7 +942,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>27</int>
+      </SecondaryIdList>
       <SampleFilename>Options</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -883,7 +963,9 @@
       <WatchIdList>
         <int>6</int>
       </WatchIdList>
-      <SecondaryIdList />
+      <SecondaryIdList>
+        <int>27</int>
+      </SecondaryIdList>
       <SampleFilename>Exit Game</SampleFilename>
       <SampleSpeed>1</SampleSpeed>
       <SampleVolume>1</SampleVolume>
@@ -1655,7 +1737,7 @@ This config uses sample-based output for health, clock and gauge values - as wel
   <PollSleepMS>100</PollSleepMS>
   <ClockTickMS>1000</ClockTickMS>
   <ClockMax>90</ClockMax>
-  <ConfigDirectory>02 - Mortal Kombat 9</ConfigDirectory>
+  <ConfigDirectory>Mortal Kombat 9</ConfigDirectory>
   <NormalTriggerMasterVolume>1</NormalTriggerMasterVolume>
   <ContinuousTriggerMasterVolume>1</ContinuousTriggerMasterVolume>
 </GameConfig>
