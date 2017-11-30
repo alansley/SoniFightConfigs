@@ -79,6 +79,41 @@
       </PointerList>
       <Active>true</Active>
     </Watch>
+    <Watch>
+      <valueType>IntType</valueType>
+      <Id>7</Id>
+      <Name>Options - Settings top level menu</Name>
+      <Description>1 through 3 as int</Description>
+      <PointerList>
+        <string>322DAC</string>
+        <string>4</string>
+        <string>80</string>
+        <string>34</string>
+        <string>64</string>
+        <string>464</string>
+      </PointerList>
+      <Active>true</Active>
+    </Watch>
+    <Watch>
+      <valueType>IntType</valueType>
+      <Id>8</Id>
+      <Name>VCR standard / extended play mode</Name>
+      <Description>Integer, 1 is SP, 2 is EP</Description>
+      <PointerList>
+        <string>3020F8</string>
+      </PointerList>
+      <Active>true</Active>
+    </Watch>
+    <Watch>
+      <valueType>IntType</valueType>
+      <Id>9</Id>
+      <Name>VCR tape rewound or at end</Name>
+      <Description>24 is tape is rewound, 30 is end of tape, 8 may be no tape</Description>
+      <PointerList>
+        <string>38BCFA</string>
+      </PointerList>
+      <Active>false</Active>
+    </Watch>
   </watchList>
   <triggerList>
     <Trigger>
@@ -711,6 +746,153 @@
       <IsClock>false</IsClock>
       <Active>true</Active>
     </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>Any</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>31</Id>
+      <Name>Options - Settings - Features</Name>
+      <Description>Says features (1)</Description>
+      <Value xsi:type="xsd:string">1</Value>
+      <WatchIdList>
+        <int>7</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Features</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>Any</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>32</Id>
+      <Name>Options - Settings - Game Settings</Name>
+      <Description>Says game settings (2)</Description>
+      <Value xsi:type="xsd:string">2</Value>
+      <WatchIdList>
+        <int>7</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Game Settings</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>Any</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>33</Id>
+      <Name>Options - Settings - Volume</Name>
+      <Description>Says volume (3)</Description>
+      <Value xsi:type="xsd:string">3</Value>
+      <WatchIdList>
+        <int>7</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Volume</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>Any</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>34</Id>
+      <Name>VCR - Standard play</Name>
+      <Description>Says standard play</Description>
+      <Value xsi:type="xsd:string">774778414</Value>
+      <WatchIdList>
+        <int>8</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Standard play mode</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>Any</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>35</Id>
+      <Name>VCR - Extended play</Name>
+      <Description>Says extended play</Description>
+      <Value xsi:type="xsd:string">774778415</Value>
+      <WatchIdList>
+        <int>8</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Extended play mode</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>true</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>Any</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>36</Id>
+      <Name>VCR tape rewound</Name>
+      <Description>Says tape rewound</Description>
+      <Value xsi:type="xsd:string">24</Value>
+      <WatchIdList>
+        <int>9</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>Beginning of tape</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>false</Active>
+    </Trigger>
+    <Trigger>
+      <triggerType>Normal</triggerType>
+      <allowanceType>Any</allowanceType>
+      <comparisonType>EqualTo</comparisonType>
+      <Id>37</Id>
+      <Name>VCR end of tape</Name>
+      <Description>Says end of tape</Description>
+      <Value xsi:type="xsd:string">30</Value>
+      <WatchIdList>
+        <int>9</int>
+      </WatchIdList>
+      <SecondaryIdList>
+        <int>-1</int>
+      </SecondaryIdList>
+      <SampleFilename>End of tape</SampleFilename>
+      <SampleSpeed>1</SampleSpeed>
+      <SampleVolume>1</SampleVolume>
+      <UseTolk>true</UseTolk>
+      <IsClock>false</IsClock>
+      <Active>false</Active>
+    </Trigger>
   </triggerList>
   <Description>Al lansley - 2017-11-12
 
@@ -720,7 +902,7 @@ Should also output new game / load game / save game etc prompts from options scr
   <PollSleepMS>100</PollSleepMS>
   <ClockTickMS>1000</ClockTickMS>
   <ClockMax>99</ClockMax>
-  <ConfigDirectory>Day of the Tentacle Remastered (Steam - Build ID 1377745)\</ConfigDirectory>
+  <ConfigDirectory>Day of the Tentacle Remastered (Steam - Build ID 1377745)</ConfigDirectory>
   <NormalTriggerMasterVolume>1</NormalTriggerMasterVolume>
   <ContinuousTriggerMasterVolume>1</ContinuousTriggerMasterVolume>
 </GameConfig>
